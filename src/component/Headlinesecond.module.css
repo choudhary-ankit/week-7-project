@@ -1,0 +1,38 @@
+.head{
+    background-color: #fff;
+    color: #212121;
+    text-align: center;
+    height: 40px;
+    width: auto;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+}
+.head select{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.select{
+    border: 1px solid white;
+    background-color: #fff;
+}
+@media only screen and (max-width: 800px) {
+    .head{
+        background-color: #fff;
+        color: #212121;
+        text-align: center;
+        height: auto;
+        width: auto;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    }
+    .head select{
+        display: unset;
+        padding: 10px;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    .select{
+        border: 1px solid white;
+        background-color: #fff;
+    }
+}

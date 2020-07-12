@@ -1,0 +1,26 @@
+.box{
+    width: 97.5%;
+    height: auto;
+    background-color: #fff;
+    color: black;
+    box-shadow: 1px 1px 20px 5px rgba(0,0,0,.16);
+    padding-bottom: 20px;
+    
+}
+.spane{
+    font-size: 11px;
+    color: black;
+    padding: 5px;
+}
+
+.text{
+    margin-left: 30px;
+    color: gray;
+    padding-top: 40px;
+}
+.text_second{
+    margin-left: 30px;
+    color: gray;
+    padding-top: 40px;
+    font-size: 11px;
+}
